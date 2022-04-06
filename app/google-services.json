@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908953950770",
+    "project_id": "fir-rickm",
+    "storage_bucket": "fir-rickm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908953950770:android:34d131cd513bdd6a623a2b",
+        "android_client_info": {
+          "package_name": "com.nyanjuimarvin.firebaserickm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908953950770-pmaodfld2magdvff4isoss0hucsg5k99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM0-dul3KXizZBPBf4ZOtf0x-YtOoGEmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908953950770-pmaodfld2magdvff4isoss0hucsg5k99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
