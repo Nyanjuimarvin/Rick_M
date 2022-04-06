@@ -17,14 +17,14 @@ object ApiClient {
             .build()
 
 
-        val retrofit: Retrofit = Retrofit.Builder()
+        val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .client(client)
             .addConverterFactory(
             GsonConverterFactory.create())
             .build();
 
-        return retrofit.create(RickMortyApi::class.java);
+        return retrofit.create(RickMortyApi::class.java)
     }
 
 }
