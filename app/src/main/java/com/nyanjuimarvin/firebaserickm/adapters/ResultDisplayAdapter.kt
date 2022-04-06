@@ -1,6 +1,7 @@
 package com.nyanjuimarvin.firebaserickm.adapters
 
 import android.content.Context
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -23,7 +24,8 @@ class ResultDisplayAdapter(private val results:List<Results>, private val contex
         parent: ViewGroup,
         viewType: Int
     ): ResultDisplayAdapter.ResultViewHolder {
-        TODO("Not yet implemented")
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.resultdisplay,parent,false)
+        return ResultViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ResultDisplayAdapter.ResultViewHolder, position: Int) {
@@ -38,7 +40,7 @@ class ResultDisplayAdapter(private val results:List<Results>, private val contex
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return results.size
     }
 
     inner class ResultViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
