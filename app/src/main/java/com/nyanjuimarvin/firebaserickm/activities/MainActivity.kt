@@ -1,4 +1,4 @@
-package com.nyanjuimarvin.firebaserickm
+package com.nyanjuimarvin.firebaserickm.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
